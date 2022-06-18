@@ -1,0 +1,16 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.landing{
+    background-image:none;
+    height:100%;
+}
+.logfrm form{
+   margin-top: 100px;
+}
+.logimg img{
+    margin-left: -100px;
+}

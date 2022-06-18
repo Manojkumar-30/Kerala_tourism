@@ -1,0 +1,28 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+  background:cover;
+}
+.bg-custom
+{
+  background-color:rgba(255, 253, 253, 0.938);
+}
+.collapse 
+{
+    margin-left: 65%;
+}
+.loginform form
+{
+    margin-top: 90px;
+    margin-left: 20px;
+} 
+.loginform img
+{
+    margin-top: 70px;
+    margin-right: 50px;
+}
