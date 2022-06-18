@@ -4,6 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+        
+        scrollbar-width: none;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+        width: 0;
+        height: 0;
+    }
 body{
  background-size:cover;
 
@@ -14,7 +23,7 @@ body{
     
 }
 .landing{
-    background-image: url(img/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(img/landing.jpg);
     height:100vh;
     background-repeat: no-repeat;
 }
@@ -86,6 +95,7 @@ body{
  .activties{
     margin-top: 40px;
     text-align: center;
+    
 }
 .activties h2{
     margin-bottom: 20px;
@@ -95,6 +105,19 @@ body{
 }
 .card img{
  height: 200px;
+}
+.col {
+    transition: .5s ease-in-out;
+}
+.col :hover{
+    background-color: rgb(158, 226, 158);
+}
+.heading h1{
+ font-weight: 700;
+ margin-bottom: 20px;
+}
+.card-body h5{
+    font-weight: 600;
 }
 
 

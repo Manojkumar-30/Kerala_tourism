@@ -9,6 +9,10 @@
 {
     margin-left: 65%;
 }
+.landing{
+  background-image:none;
+  height: 0%;
+}
 .loginform form
 {
     margin-top: 90px;

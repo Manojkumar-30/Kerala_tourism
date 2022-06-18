@@ -9,9 +9,9 @@
 }
 
 .landing{
-  
-    height:100%;
-}
+    background-image:none;
+    height: 0%;
+  }
 .logfrm form{
    margin-top: 100px;
 }

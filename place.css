@@ -11,3 +11,16 @@
 .collapse {
     margin-left: 65%;
 }
+.landing{
+    background-image:none;
+    height: 0%;
+  }
+.card-custom{
+    display: flex;
+    justify-content: center;
+}
+.dist-head h1{
+    text-align: center;
+    font-weight: 900;
+
+}
