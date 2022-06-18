@@ -4,14 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body
-{
-  background:cover;
-}
-.bg-custom
-{
-  background-color:rgba(255, 253, 253, 0.938);
-}
+
 .collapse 
 {
     margin-left: 65%;

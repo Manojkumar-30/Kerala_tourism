@@ -1,8 +1,13 @@
-.landing{
-    background-image:none;
-    height:100%;
-}
-.heading{
-    
-}
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 
+}
+.bg-custom{
+    background-color:rgba(255, 253, 253, 0.938);
+}
+.collapse {
+    margin-left: 65%;
+}

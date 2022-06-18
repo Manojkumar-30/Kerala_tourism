@@ -4,8 +4,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.collapse {
+    margin-left: 65%;
+}
+
 .landing{
-    background-image:none;
+  
     height:100%;
 }
 .logfrm form{

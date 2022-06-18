@@ -1,108 +1,134 @@
 *{
     font-family: 'Josefin Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
 }
-
 body{
- background:cover;
+ background-size:cover;
 
+ width: 100vw;
 }
-header{
-    background-color: rgba(255, 253, 253, 0.938);
-    height: 5em;
-}
-header img{
-    height: 70px;
-    margin-top: 3px;
-    margin-left: 45px;
-}
-.menu{
-    float: right;
-    margin-top: 35px;
-    margin-right: 105px;
+.bg-custom{
+    background-color:rgba(255, 253, 253, 0.938);
     
 }
-.menu a{
-    
-    text-decoration: none;
-   
-    color: rgb(0, 0, 0);
-    margin-right: 19px;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 15px;
-    transition: all 0.5s ease 0s;
-
+.landing{
+    background-image: url(img/wallpaperflare.com_wallpaper.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
 }
-.menu a:hover{
-    
-    color: rgb(211, 5, 5);
-    transition: 0.5s ease;
-
+.collapse {
+    margin-left: 65%;
 }
 .info{
-   padding: 180px;
-     margin-left: 100px;
-     color: aliceblue;
+      margin-top: 200px;
+      margin-left: 100px;
+      color: aliceblue;
+     
+ }
+ .info h2{
+     font-size: 55px;
+     font-weight: 900;
+     color: #fff;
+}
+ .info h1{
+     font-size: 30px;
+     font-weight: 700;
+     color: #fff;
+     text-transform: uppercase;
+ }
+ .info p{
+     font-size: 15px;
+     word-spacing: 2px;
+     margin-bottom: 25px;
+     color: rgb(245, 204, 204);
+ }
+ .info a{
+     font-size: 28px;
+     margin-inline: 30px;
+     padding: 8px;
+     text-decoration: none;
     
+ }
+ .info .button{
+     background:#fff;
+     color: #000 ;
+     border-radius: 8px;
+ }
+ .info .button1{
+     background:rgba(99, 32, 153, 0.849);
+     color: rgb(255, 255, 255) ;
+     border-radius: 8px;
+ }
+ .change_content::after{
+     content: '';
+     animation: changetext 18s infinite linear;
+     color: rgba(99, 32, 153, 0.849);
+     font-size: 55px;
+ }
+ @keyframes changetext{
+     0%{ content:"Alappuzha";}
+     10%{ content:"Ernakulam";}
+     15%{ content:"Idukki";}
+     26%{ content:"Kannur";}
+     33%{ content:"Kasaragod";}
+     39%{ content:"Kollam";}
+     46%{ content:"Kottayam";}
+     50%{ content:"Kozhikode";}
+     59%{ content:"Malappuram";}
+     66%{ content:"Palakkad";}
+     75%{ content:"Pathanamthitta";}
+     80%{ content:"Trivandrum";}
+     91%{ content:"Thrissur";}
+     100%{ content:"Wayanad";}
+ }
+ .activties{
+    margin-top: 40px;
+    text-align: center;
 }
-.info h2{
-    font-size: 55px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    color: rgba(233, 218, 218, 0.986);
-    text-shadow: 1px 1px 2px black;
+.activties h2{
+    margin-bottom: 20px;
 }
-.info h1{
-    font-size: 30px;
-    font-weight: 700;
-    color: rgb(203, 207, 207);
-    text-shadow: 1px 1px 2px black;
-    text-transform: uppercase;
+.card{
+    width:300px;
 }
-.info p{
-    font-size: 15px;
-    word-spacing: 2px;
-    margin-bottom: 25px;
-    color: rgb(245, 204, 204);
+.card img{
+ height: 200px;
 }
-.info a{
-    font-size: 35px;
-    margin-right: 70px;  
-   
-}
-.info .button{
-    background:#fff;
-    color: #000 ;
-    border-radius: 16px;
-}
-.info .button1{
-    background:rgb(99, 32, 153);
-    color: rgb(255, 255, 255) ;
-    border-radius: 16px;
-}
-.change_content::after{
-    content: '';
-    animation: changetext 18s infinite linear;
-    color: black;
-    font-size: 60px;
-}
-@keyframes changetext{
-    0%{ content:"Alappuzha";}
-    10%{ content:"Ernakulam";}
-    15%{ content:"Idukki";}
-    26%{ content:"Kannur";}
-    33%{ content:"Kasaragod";}
-    39%{ content:"Kollam";}
-    46%{ content:"Kottayam";}
-    50%{ content:"Kozhikode";}
-    59%{ content:"Malappuram";}
-    66%{ content:"Palakkad";}
-    75%{ content:"Pathanamthitta";}
-    80%{ content:"Trivandrum";}
-    91%{ content:"Thrissur";}
-    100%{ content:"Wayanad";}
+
+
+
+
+
+
+
+
+
+
+
+/* moblie version */
+@media  (max-width:900px){
+    .info{
+        margin-left: 6px;
+    }
+    .info h2{
+        font-size: 30px;
+        font-weight: 200;
+        letter-spacing: 1px;
+    }
+    .info h1{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .info p{
+        font-size: 10px;
+    }
+    .info a{
+        font-size: 15px;
+        margin-right: 70px;  
+    }
+    .info h1 span{
+        font-size:20px;
+    }
 }
