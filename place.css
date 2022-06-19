@@ -3,7 +3,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
+}
+.body{
+    background-color: rgb(181, 245, 173);
 }
 .bg-custom{
     background-color:rgba(255, 253, 253, 0.938);
@@ -15,12 +17,21 @@
     background-image:none;
     height: 0%;
   }
+
 .card-custom{
     display: flex;
-    justify-content: center;
+    
 }
 .dist-head h1{
     text-align: center;
     font-weight: 900;
 
+}
+.dist-img img{
+    border-radius: 150px;
+}
+.dist-para{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
 }
