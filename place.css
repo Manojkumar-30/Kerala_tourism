@@ -28,10 +28,10 @@
 
 }
 .dist-img img{
-    border-radius: 150px;
+    border-radius: 20px;
 }
 .dist-para{
     margin-top: 30px;
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
 }
